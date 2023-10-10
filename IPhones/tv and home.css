@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(245, 245, 247);
+    display: block;
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 460;
+    letter-spacing:-.022em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif ;
+}
+nav{
+    display: flex;
+    height: 45px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+nav ul{
+    display: flex;
+
+}
+nav ul{
+    text-decoration: none;
+    list-style: none;
+}
+nav ul li a{
+    padding: 20px;
+    color:black;
+    text-decoration: none;
+    list-style: none;
+    font-size: 15px;
+    font-family: inherit;
+    position: relative;
+   
+}
+nav ul li a::after{
+    content:"";
+    height:2px;
+    width: 0;
+    background:black;
+    position: absolute;
+    left: 0;
+    bottom: 13px;
+    transition: 0.5s;
+
+}
+nav ul li a:hover::after{
+    width: 100%;
+    color:black;
+}
+i{
+    cursor: pointer;
+    color:black;
+    padding: 16px;
+}
+.shooping{
+    cursor: pointer;
+    color:black;
+}
+video{
+    margin-left:1%;
+}
+
+.hero{
+    background-color:white;
+    margin-left:3%;
+    margin-top:2%;
+    width:45%;
+    border-radius: 3%;
+    height:90vh;
+}
+#data p{
+    color: black;
+    margin-top:-45%;
+    margin-left:18% ;
+    font-size:25px;
+}
+#data h2{
+    text-align: center;
+    font-family: sans-serif;
+    margin-top:1%;
+    margin-left:-50%;
+    font-size:35px;
+    line-height:1.1;
+}
+#data h6{
+    margin-top:1%;
+    margin-left:23%;
+    font-size:28px;
+}
+#data img{
+    width:45%;
+    margin-left:3%;
+}
+.hero2{
+    background-color:white;
+    margin-left:50%;
+    margin-top:-47.5%;
+    width:46%;
+    border-radius: 3%;
+    height:91vh;
+}
+#data2 h2{
+    width: 30%;
+    text-align: center;
+    align-items:center;
+    margin-top:-45%;
+    margin-left:58%;
+    line-height: 1.1;
+}
+#data2 p{
+    text-align: center;
+    align-items:center;
+    margin-top:1%;
+    margin-left:45%;
+    line-height: 1.1;
+    font-size:25px;
+}
+#data3 img{
+    margin-top:1%;
+    margin-left:70%;
+}
+
+#data4 img{
+    margin-top:2%;
+    width:38%;
+    margin-left:50%;
+}
+#head h1{
+    margin-top:15%;
+    text-align: center;
+    align-items: center;
+    font-size:55px;
+    line-height: 1.1;
+    letter-spacing:1.1;
+}
+.hero3{
+    background-color:white;
+    margin-left:3%;
+    margin-top:10%;
+    width:46%;
+    border-radius: 3%;
+    height:91vh;
+}
+
+#rc p{
+    font-size:35px;
+    margin-top:-43%;
+    margin-left:-50%;
+    text-align: center;
+    align-items: center;
+    line-height: 1.1;
+}
+#rc h6{
+    font-size:18px;
+    margin-top:2%;
+    margin-left:-50%;
+    text-align: center;
+    align-items: center;
+    color: blue;
+}
+#rc img{
+    margin-top:5%;
+    margin-left:10%;
+}
+.hero4{
+    background-color:white;
+    margin-left:52%;
+    margin-top:-43.5%;
+    width:46%;
+    border-radius: 3%;
+    height:91vh;
+}
+#security p{
+    font-size:35px;
+    margin-top:-43%;
+    margin-left:50%;
+    text-align: center;
+    align-items: center;
+    line-height: 1.1;
+}
+#security h6{
+    font-size:18px;
+    margin-top:2%;
+    margin-left:50%;
+    text-align: center;
+    align-items: center;
+    color: blue;
+}
+#security img{
+        margin-top:8%;
+        margin-left:60%;
+}
+#head2 h1{
+    margin-top:15%;
+    text-align: center;
+    align-items: center;
+    font-size:55px;
+    line-height: 1.1;
+    letter-spacing:-0.1cm;
+}
+.hero5{
+    background-color:white;
+    margin-left:3%;
+    margin-top:10%;
+    width:46%;
+    border-radius: 3%;
+    height:80vh;
+}
+#three h5{
+    font-size:40px;
+    margin-top:-39%;
+    margin-left:-53%;
+    text-align: center;
+    align-items: center;
+    line-height: 1.1;
+}
+#three p{
+    font-size:25px;
+    margin-top:1%;
+    margin-left:12%;
+    width:30%;
+    line-height: 1.1;
+
+}
+#three img{
+    margin-top:5%;
+    margin-left:-5%;
+}
+.hero6{
+    background-color:white;
+    margin-left:52%;
+    margin-top:-38%;
+    width:46%;
+    border-radius: 3%;
+    height:80vh;
+}
+#head3 h5{
+    font-size:40px;
+    margin-top:-39%;
+    margin-left:51%;
+    text-align: center;
+    align-items: center;
+    line-height: 1.1;
+}
+#head3 p{
+    font-size:25px;
+    margin-top:1%;
+    margin-left:63%;
+    width:30%;
+    line-height: 1.1;
+}
+#head3 img{
+    margin-top:1%;
+    margin-left:60%;
+}
+.over h1{
+    margin-top:15%;
+    text-align: center;
+    align-items: center;
+    font-size:55px;
+    line-height: 1.1;
+    letter-spacing:1.1;
+}
+.over video{
+    width:80%;
+    border: solid black 5px;
+    margin-top:5%;
+    margin-left:10%;
+}
+.end img{
+    margin-top: 5%;
+    margin-left:23%;
+
+}
+.end p{
+    text-align: center;
+    margin-left:-40%;
+
+}
+#end2 img{
+    margin-bottom:7%;
+    margin-top:-35%;
+    margin-left:65%;
+
+}
+#end2 p{
+    margin-top:-7%;
+    text-align: center;
+    margin-left:45%;
+
+}
+hr{
+    margin-top:10%;
+    width: 70%;
+    margin-left:15%;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+    margin-top: 10%;
+	background-color:white;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	margin-top:10%;
+	font-size: 16px;
+	color:black;
+	text-transform: capitalize;
+	margin-bottom:10px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color:black;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color:black;
+	padding-left: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

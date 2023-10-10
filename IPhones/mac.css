@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:white;
+    display: block;
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 460;
+    letter-spacing:-.022em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif ;
+}
+nav{
+    display: flex;
+    height: 45px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+nav ul{
+    display: flex;
+
+}
+nav ul{
+    text-decoration: none;
+    list-style: none;
+}
+nav ul li a{
+    padding: 20px;
+    color:black;
+    text-decoration: none;
+    list-style: none;
+    font-size: 15px;
+    font-family: inherit;
+    position: relative;
+   
+}
+nav ul li a::after{
+    content:"";
+    height:2px;
+    width: 0;
+    background:black;
+    position: absolute;
+    left: 0;
+    bottom: 13px;
+    transition: 0.5s;
+
+}
+nav ul li a:hover::after{
+    width: 100%;
+    color:black;
+}
+i{
+    color:black;
+    padding: 16px;
+}
+.shooping{
+    color:black;
+}
+
+.Mac h1{
+    font-size: 70px;
+    text-align: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-left:-5%;
+    letter-spacing:0.0cm;
+}
+.Mac img{
+    margin-top: 5%;
+    margin-left:10%;
+
+}
+
+#content h5{
+    margin-top:5%;
+    margin-left:18%;
+    font-size:20px;
+
+}
+#content h2{
+    margin-top:-1%;
+    font-size:45px;
+    margin-left:13%;
+    letter-spacing:0.0cm;
+}
+#content h6{
+    margin-top:-1%;
+    font-size: 20px;
+    margin-left:18%;
+    
+}
+#content1 h5{
+    margin-top:-7%;
+    margin-left:65%;
+    font-size:20px;
+
+}
+#content1 h2{
+    margin-top:-1%;
+    font-size:45px;
+    margin-left:60%;
+    letter-spacing:0.0cm;
+}
+#content1 h6{
+    margin-top:-1%;
+    font-size: 20px;
+    margin-left:65%;
+    
+}
+.macpro h1{
+    font-size: 70px;
+    text-align: center;
+    align-items: center;
+    margin-top:10%;
+    margin-left:-5%;
+    letter-spacing:0.0cm;
+}
+#img img{
+    width:45%;
+    margin-top:-20%;
+    margin-left:50%;
+}
+
+#data h5{
+    margin-top:3%;
+    margin-left:20%;
+    font-size:25px;
+
+}
+#data h2{
+    margin-top:0%;
+    font-size:45px;
+    margin-left:15%;
+    letter-spacing:-0.1cm;
+}
+#data h6{
+    margin-top:0%;
+    font-size: 20px;
+    margin-left:20%;
+    
+}#data2 h5{
+    margin-top:-9%;
+    margin-left:65%;
+    font-size:20px;
+
+}
+#data2 h2{
+    margin-top:0%;
+    font-size:45px;
+    margin-left:55%;
+    letter-spacing:-0.1cm;
+}
+#data2 h6{
+    margin-top:0%;
+    font-size: 20px;
+    margin-left:65%;
+    
+}
+.end{
+    display: flex;
+        margin-top:120%;
+        width:48%;
+        height:80vh;
+        position:absolute;
+        top:10%;
+        left:0%;
+        margin-left:1%;
+        background-image:url("https://www.apple.com/v/macbook-pro/ah/images/overview/business__ww84q61opmqy_large.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+}
+#value1 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:90%;
+    font-size:40px;
+    margin-top:40%;
+    margin-left:20%;
+    color: aliceblue;
+}
+#value1 p{
+    color: aliceblue;
+    font-size: 25px;
+    margin-left:15%;
+}
+.left{
+    display: flex;
+        margin-top:120%;
+        width:50%;
+        height:80vh;
+        position:absolute;
+        top:10%;
+        left:0%;
+        margin-left: 50%;
+   background-image: url("https://www.apple.com/v/macbook-pro/ah/images/overview/education__d82em19gb3ue_large.jpg"); 
+   background-position: center;
+   background-repeat: no-repeat;
+}
+#value2{
+    color: aliceblue;
+    font-size:30px;
+    margin-top:30%;
+    margin-left: 15%;
+}
+#value2 p{
+    color: aliceblue;
+
+}
+
+hr{
+    margin-top:70%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color:white;
+    padding: 70px 0;
+    margin-top:10%;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	margin-top:10%;
+	font-size:20px;
+	color:black;
+	text-transform: capitalize;
+	margin-bottom:10px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color:black;
+	text-decoration: none;
+	font-weight: 300;
+	color: black;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color:black;
+	padding-left: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
